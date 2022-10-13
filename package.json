@@ -1,0 +1,19 @@
+{
+  "name": "JEST-PLAYWRIGHT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "rimraf -f screenshots; mkdir screenshots",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.4.7",
+    "jest-html-reporters": "^3.0.11",
+    "jest-playwright-preset": "^1.7.0",
+    "playwright": "^1.18.1"
+  }
+}
