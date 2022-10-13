@@ -1,6 +1,6 @@
 //Using data driven and page objects
 
-Login = require('../__tests__/pageObjects/login')
+Login = require('../pageObjects/login')
 Data = require('../data/data.json')
 
 describe('Post', () => {
